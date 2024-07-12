@@ -66,11 +66,19 @@
           <h1 class="text-6xl font-bold">David Dermawan</h1>
           <h2 class="text-3xl">Frontend Developer</h2>
         </section>
-        <section id="about">
+        <section class="flex w-screen">
+          <ul
+            class="flex flex-col gap-4 text-white px-6 text-4xl justify-center"
+          >
+            <li><a href="#" id="about-tab">About</a></li>
+            <li><a href="#" id="skill-tab">Skill</a></li>
+            <li><a href="#" id="project-tab">Project</a></li>
+          </ul>
           <article
             class="h-screen flex flex-col items-center justify-center px-6 text-justify text-white"
           >
             <section
+              id="content"
               class="flex flex-col items-center px-20 text-2xl max-sm:px-10"
             >
               <h2>About</h2>
@@ -85,10 +93,6 @@
                 playing chess, watching Anime or playing puzzle
               </p>
             </section>
-            <!-- <section>
-              <h2>My Skill</h2>
-              <div></div>
-            </section> -->
           </article>
         </section>
       </article>
@@ -128,5 +132,7 @@
         </a>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
